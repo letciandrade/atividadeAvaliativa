@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Job Listings</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
+
+      :root {
+        --DesaturatedDarkCyan: hsl(180, 29%, 50%);
+        --LightGrayishCyan96: hsl(180, 52%, 96%);
+        --LightGrayishCyan95: hsl(180, 31%, 95%);
+        --DarkGrayishCyan: hsl(180, 8%, 52%);
+        --VeryDarkGrayishCyan: hsl(180, 14%, 20%);
+      }
+
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        background-color: var(--DesaturatedDarkCyan);
+        margin-bottom: 1rem;
+      }
+
+      main{
+        display: flex;
+        justify-content: center;
+      
+      }
+      .caixa-perfil {
+        display: flex;
+        flex-direction: row;
+        
+        width: 30rem;
+        height: 7rem;
+
+        background-color: var(--LightGrayishCyan95);
+      }
+
+      .paragrafo1{
+        display: flex;
+        flex-direction: row;
+        gap: 0.8rem;
+      }
+
+      .paragrafo1 h6{
+        margin-top: 0.8rem;
+      }
+
+      .paragrafo3{
+        display: flex;
+        flex-direction: row;
+        gap: 0.6rem;
+      }
+
+      .botoes{
+        display: flex;
+        flex-direction: row;
+        gap: 0.7rem;
+        
+      }
+
+      .botoes button{
+        border:none;
+        background-color: var(--DesaturatedDarkCyan);
+        height: 3rem;
+        font-size: 0.5rem;
+      }
+
+      .paragrafo1 button{
+
+        background-color: var(--LightGrayishCyan95);
+        border: none;
+        height: 4rem;
+
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <svg
+        width="1440"
+        height="156"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <defs><path id="a" d="M0 0h1440v156H0z" /></defs>
+        <g fill="none" fill-rule="evenodd">
+          <mask id="b" fill="#fff"><use xlink:href="#a" /></mask>
+          <use xlink:href="#a" />
+          <g mask="url(#b)" fill="#63BABA">
+            <path
+              d="M495.73 563.419c-51.439-48.795-53.583-130.05-4.788-181.489a128.377 128.377 0 0 1 4.789-4.789l418.16-396.66c55.045-52.215 141.329-52.215 196.374 0 50.418 47.825 53.478 126.835 7.634 178.39l188.06-178.39c55.045-52.215 141.328-52.215 196.373 0 51.44 48.794 53.583 130.049 4.789 181.488a128.377 128.377 0 0 1-4.789 4.789l-418.158 396.658c-55.045 52.215-141.329 52.215-196.374 0-50.418-47.825-53.478-126.835-7.634-178.39L692.104 563.42c-55.045 52.215-141.328 52.215-196.373 0ZM360.464 45.523c-51.44-48.794-53.583-130.05-4.789-181.488a128.377 128.377 0 0 1 4.789-4.79l418.163-396.663c55.046-52.215 141.33-52.215 196.374 0 51.44 48.794 53.583 130.05 4.789 181.488a128.376 128.376 0 0 1-4.789 4.79L556.837 45.522c-55.045 52.215-141.328 52.215-196.373 0Zm-468.795 71.832c-51.439-48.795-53.583-130.05-4.789-181.489a128.377 128.377 0 0 1 4.79-4.788l418.16-396.661c55.045-52.215 141.328-52.215 196.373 0 51.44 48.794 53.583 130.05 4.79 181.488a128.378 128.378 0 0 1-4.79 4.789l-418.16 396.66c-55.045 52.216-141.329 52.216-196.374 0Z"
+            />
+          </g>
+        </g>
+      </svg>
+    </header>
+
+    <main>
+      <section class="caixa-perfil">
+        <article class="perfil-paragrafos">
+          <div class="paragrafo1">
+
+            <p class="imagem-perfil">
+              <img src="./images/photosnap.svg" alt="" />
+            </p>
+
+            <h6>Photosnap</h6>
+            <h6>NEW!</h6>
+            <h6>FEATURED</h6>
+
+           
+
+          </div>
+
+          <div class="paragrafo2">
+            <p>Senior Fronted Developer</p>
+          </div>
+
+          <div class="paragrafo3">
+            <p>1d ago</p>
+            <p>.</p>
+            <p>Full Time</p>
+            <p>.</p>
+            <p>USA only</p>
+          </div>
+
+          
+        </article>
+
+        <article class="botoes">
+          <button class="botao-frontend">Frontend</button>
+          <button class="botao-senior">Senior</button>
+          <button class="botao-html">HTML</button>
+          <button class="botao-css">CSS</button>
+          <button class="botao-javaScript">JavaScript</button>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
